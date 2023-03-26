@@ -13,7 +13,8 @@
     set sc = ##class(App.Installer).setup() 
 
     // comment the line below for production images
-    zpm "install passwordless"
+    //zpm "install passwordless"
+    zpm "install fhir-server"
     // load all the code of the project as a ZPM package
     zn "IRISAPP"
     
